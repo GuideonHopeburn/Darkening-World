@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+}
+table{
+    text-align: center;
+}
+
+ul{
+    padding: 0%;
+    margin: 0%;
+    font-family: monospace;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    color: blue;
+    padding: 10px 10spx;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px ;
+}
+ul li ul{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+   position: absolute;
+   z-index: 999;
+   display: none;
+}
+ul li a:hover{
+    background: #040405;
+}
+ul li:hover ul.dropdown{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+}
+.circulo{
+    
+    width: 250px;
+    height: 250;
+    border-radius: 50%;
+    
+}
+img{
+    text-align: center;
+}
